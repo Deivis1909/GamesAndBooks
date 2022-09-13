@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cult Book and Games</title>
+        <style>
+            html,body,h1,h2,h3,h4,p{
+                margin:0;
+                padding:0;
+            }
+            html{
+                background:rgb(229,229,229);
+            }
+            article,aside,section,header,footer,nav{
+                display:block;
+            }
+            body{
+                width:960px;
+                background-color:rgb(255,255,255);
+                font-family:arial,helvetica,sans-serif;
+                font-size:14px;
+                color:rgb(190, 80, 80);
+                box-shadow: 0 0 10px rgb(188, 184, 184);
+                margin:10px auto;
+                padding:10px;
+            }
+            header{
+                padding:25px;
+                background-color:beige;
+                text-align:center;
+                margin-bottom:10px;
+                border: solid black;
+            }
+            header h1{
+                font-size:1.3em;
+                color:rgb(255,255,255);
+            }
+            .janela1{
+                background-color:beige;
+                height:500px;
+                width:680px;
+                float:left;
+                margin-bottom:10px;
+               
+               
+            }
+            .janela2{
+                background-color:beige;
+                height:500px;
+                width:260px;
+                float:right;
+                margin-bottom:10px;
+               
+                
+
+            }
+            footer{
+                padding:5px;
+                background-color:rgb(180,180,180);
+                text-align:center;
+                color:rgb(255,255,255);
+                clear:both;
+                border:solid black;
+            }
+            #menu ul{
+                margin:0px;
+                padding:0px;
+                list-style:none;
+            }
+            #menu{
+                padding:10px;
+            }
+            #menu ul li{
+                float:left;
+                position:relative;
+
+            }
+            #menu ul li a{
+                display:inline-block;
+                text-decoration:none;
+                color:indianred;
+                background-color:beige;
+                padding:5px 10px;
+                border:1px solid indianred;
+                margin-right:-5px;
+                width:200px;
+                
+            }
+            #menu ul li ul{
+                display:none;
+                position:absolute;
+            }
+            #menu ul li ul li a {
+                width:110px;
+                margin-top:-1px;
+            }
+            #menu li:hover ul{
+                display:block;
+            }
+            #menu ul li a:hover{
+                color:beige;
+                background-color:indianred;
+            }
+
+
+
+        </style>
+        
+        
+    </head>
+
+    <body>
+       <main>
+        <header>
+            <Nav id="menu">
+                <ul>
+                    <li><a href="#"> História</a>
+                        <ul>
+                            <li><a href="#">Uma breve Historia do Brasil</a></li>
+                            <li><a href="#">Historia consisa do Brasil</a></li>
+                            <li><a href="#">Raizes do Brasil</a></li>
+                            <li><a href="#">1808</a></li>
+                        </ul>
+                    </li> 
+                    <li><a href="#">Filosofia</a>
+                        <ul>
+                            <li><a href="#">Contrato Social</a></li>
+                             <li><a href="#">O Capital</a></li>
+                             <li><a href="#"> A Republica</a></li>    
+                        </ul>
+                     </li> 
+                     <li><a href="#">Literatura</a>
+                        <ul>
+                            <li><a href="#">O Curtiço</a></li>
+                             <li><a href="#">Em algum lugar no paraiso</a></li>    
+                        </ul>
+                     </li>  
+                     <li><a href="#">Games</a>
+                        <ul>
+                            <li><a href="#">PES 2020</a></li>
+                             <li><a href="#">The Lost of US</a></li>
+                             <li><a href="#">Rainbow Six</a></li>    
+                        </ul>
+                     </li>        
+
+                </ul>
+            </Nav>
+        </header>
+        <section class="janela1">coluna 1 </section>
+        <section class="janela2">coluna 2</section>
+        <footer> endereço, telefone e outras</footer>
+
+       </main>   
+    </body>
+</html>
